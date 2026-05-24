@@ -6,7 +6,10 @@ Flutter framework-ü istifadə edilərək hazırlanmış, istifadəçilərin boy
 
 ## 📱 Ekran Görüntüləri (Screenshots)
 
-![Home Screen](https://github.com) ![Result Screen](https://github.com)
+<p align="center">
+  <img src="https://githubusercontent.com" width="280" alt="Home Screen" onerror="this.src='https://github.com'" />
+  <img src="https://githubusercontent.com" width="280" alt="Result Screen" onerror="this.src='https://github.com'" />
+</p>
 
 ---
 
