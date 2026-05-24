@@ -1,10 +1,10 @@
 import 'dart:developer';
 
-import 'package:bmi_calculation/bmi_calculator/constant/app_text.dart';
-import 'package:bmi_calculation/bmi_calculator/widgets/app_box.dart';
-import 'package:bmi_calculation/bmi_calculator/widgets/circle_button.dart';
-import 'package:bmi_calculation/bmi_calculator/widgets/label_text.dart';
-import 'package:bmi_calculation/bmi_calculator/widgets/number_text.dart';
+import 'package:bmi_calculation/constant/app_text.dart';
+import 'package:bmi_calculation/widgets/app_box.dart';
+import 'package:bmi_calculation/widgets/circle_button.dart';
+import 'package:bmi_calculation/widgets/label_text.dart';
+import 'package:bmi_calculation/widgets/number_text.dart';
 import 'package:flutter/material.dart';
 
 

@@ -1,6 +1,6 @@
-import 'package:bmi_calculation/bmi_calculator/constant/app_colors.dart';
-import 'package:bmi_calculation/bmi_calculator/constant/app_text.dart';
-import 'package:bmi_calculation/bmi_calculator/constant/app_text_style.dart';
+import 'package:bmi_calculation/constant/app_colors.dart';
+import 'package:bmi_calculation/constant/app_text.dart';
+import 'package:bmi_calculation/constant/app_text_style.dart';
 import 'package:flutter/material.dart';
 
 
