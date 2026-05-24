@@ -13,6 +13,11 @@ Flutter framework-ü istifadə edilərək hazırlanmış, istifadəçilərin boy
 
 ---
 
+## ✨ Özəlliklər (Features)
+
+- ⚖️ **Anlıq Hesablama:** Daxil edilən parametrlərə əsasən dərhal nəticə çıxarma.
+- 🎨 **İnteraktiv UI:** İstifadəçi dostu dizayn və nəticəyə uyğun vizual geri bildirim.
+- 📱 **Responsive:** Müxtəlif ölçülü mobil ekranlara (Android/iOS) tam uyğunlaşma.
 
 ## 🛠️ Texnologiyalar (Tech Stack)
 
