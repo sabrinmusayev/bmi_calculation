@@ -1,18 +1,17 @@
-import 'package:bmi_calculation/constant/app_colors.dart';
 import 'package:flutter/material.dart';
 
-
 class AppBox extends StatelessWidget {
-  const AppBox({super.key, required this.child});
+  const AppBox({super.key, required this.child, this.backgroundColor});
   final Widget child;
+  final Color? backgroundColor;
 
   @override
   Widget build(BuildContext context) {
     return SizedBox(
       child: DecoratedBox(
-        decoration: const BoxDecoration(
-          color: AppColors.boxColor,
-          borderRadius: BorderRadius.all(Radius.circular(12)),
+        decoration: BoxDecoration(
+          color: backgroundColor,
+          borderRadius: const BorderRadius.all(Radius.circular(12)),
         ),
         child: child,
       ),

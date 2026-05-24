@@ -6,7 +6,10 @@ import 'package:bmi_calculation/widgets/number_text.dart';
 import 'package:flutter/material.dart';
 
 class HeightBox extends StatelessWidget {
-  const HeightBox({super.key});
+  const HeightBox({super.key, required this.onSlide, required this.value});
+  final void Function(double) onSlide;
+  final double value;
+
 
   @override
   Widget build(BuildContext context) {
@@ -14,13 +17,13 @@ class HeightBox extends StatelessWidget {
       child: Column(
         children: [
           const LabelText(labelText: AppText.height),
-          const NumberText(numberText: '177 cm', fontSize: 34),
+           NumberText(numberText: value.toInt().toString(), fontSize: 34),
           Slider(
             activeColor: AppColors.primary,
             min: 100,
             max: 200,
-            value: 177,
-            onChanged: (v) {},
+            value: value,
+            onChanged: onSlide
           ),
         ],
       ),

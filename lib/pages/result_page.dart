@@ -8,7 +8,8 @@ import 'package:bmi_calculation/widgets/number_text.dart';
 import 'package:flutter/material.dart';
 
 class ResultPage extends StatelessWidget {
-  const ResultPage({super.key});
+  const ResultPage({super.key,required this.result});
+  final double result;
 
   @override
   Widget build(BuildContext context) {
@@ -26,19 +27,19 @@ class ResultPage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
             const Text(AppText.resultText, style: AppTextStyle.resultTextStyle),
-            const SizedBox(
+             SizedBox(
               height: 500,
               width: 350,
               child: AppBox(
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
-                    Text(
+                    const Text(
                       AppText.resultLabelText,
                       style: AppTextStyle.resultLabeTextStyle,
                     ),
-                    NumberText(numberText: '22.3', fontSize: 70),
-                    Padding(
+                    NumberText(numberText: result.toStringAsFixed(1), fontSize: 70),
+                    const Padding(
                       padding: AppPadding.a16,
                       child: Center(
                         child: Text(
