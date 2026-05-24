@@ -7,13 +7,11 @@ Flutter framework-ü istifadə edilərək hazırlanmış, istifadəçilərin boy
 ## 📱 Ekran Görüntüləri (Screenshots)
 
 
-
 | 🎯 Əsas Səhifə (Home) | 📊 Nəticə Səhifəsi (Result) |
 | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/85be3bba-d760-49e8-9677-5f4c53ebe6f7" width="280" alt="Home Screen"> | <img src="https://github.com/user-attachments/assets/92697d77-d8f2-4bee-9eeb-b60c359b8f04" width="280" alt="Result Screen"> |
+| <img src="https://github.com" width="280" alt="Home Screen"> | <img src="https://github.com" width="280" alt="Result Screen"> |
 
 ---
-
 
 ## 🛠️ Texnologiyalar (Tech Stack)
 
