@@ -1,49 +1,34 @@
 # 🏋️‍♂️ BMI Calculator (Bədən Kütlə İndeksi Kalkulyatoru)
 
-Flutter framework-ü istifadə edilərək hazırlanmış, istifadəçilərin boy və çəki məlumatlarına əsasən bədən kütlə indeksini anlıq hesablayan və sağlamlıq statusunu vizual olaraq göstərən mobil tətbiq.
+Flutter ilə hazırlanmış, istifadəçilərin boy və çəki məlumatlarına əsasən bədən kütlə indeksini hesablayan və sağlamlıq vəziyyəti barədə məsləhətlər verən mobil tətbiq.
+
 
 ---
 
 ## 📱 Ekran Görüntüləri (Screenshots)
 
 <p align="center">
-  <img src="https://githubusercontent.com" width="280" alt="Home Screen" onerror="this.src='https://github.com'" />
-  <img src="https://githubusercontent.com" width="280" alt="Result Screen" onerror="this.src='https://github.com'" />
+  <img src="https://github.com/user-attachments/assets/de23bdb7-a563-4264-a6f7-f36757eff817" width="30%" alt="Əsas Səhifə" />
+  &nbsp; &nbsp; &nbsp; &nbsp;
+  <img src="https://github.com/user-attachments/assets/39bc85bf-8e69-4304-9007-1295e4b80736" width="30%" alt="Nəticə Səhifəsi" />
 </p>
 
 ---
 
-## ✨ Özəlliklər (Features)
+---
 
-- ⚖️ **Anlıq Hesablama:** Daxil edilən parametrlərə əsasən dərhal nəticə çıxarma.
-- 🎨 **İnteraktiv UI:** İstifadəçi dostu dizayn və nəticəyə uyğun vizual geri bildirim.
-- 📱 **Responsive:** Müxtəlif ölçülü mobil ekranlara (Android/iOS) tam uyğunlaşma.
+## 🛠️ İstifadə Olunan Texnologiyalar (Tech Stack)
 
-## 🛠️ Texnologiyalar (Tech Stack)
-
-- **Framework:** Flutter
-- **Language:** Dart
-- **Design:** Material Design v3
+- **Framework:** Flutter (Dart)
+- **State Management:** [Bura istifadə etdiyiniz idarəetməni yazın, məs: Provider, Bloc, GetX və ya setState]
+- **Dizayn:** Material Design v3
 
 ---
 
-## 🚀 Quraşdırılma (Installation)
+## 🚀 Quraşdırılma və İşə Salınma (Installation)
 
-Proyekti öz kompüterinizdə və emulyatorda işə salmaq üçün aşağıdakı addımları ardıcıllıqla icra edin:
+Layihəni öz kompüterinizdə yoxlamaq üçün aşağıdakı addımları izləyin:
 
 1. Bu repozitoriyanı klonlayın:
-   ```bash
-   git clone https://github.com
-   ```
-2. Layihə qovluğuna daxil olun:
-   ```bash
-   cd bmi_calculation
-   ```
-3. Lazım olan paketləri və asılılıqları yükləyin:
-   ```bash
-   flutter pub get
-   ```
-4. Tətbiqi işə salın:
-   ```bash
-   flutter run
-   ```
+```bash
+   git clone [https://github.com](https://github.com)[İstifadəçi_Adınız]/bmi_calculation.git
