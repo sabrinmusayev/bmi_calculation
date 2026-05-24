@@ -6,12 +6,13 @@ Flutter framework-ü istifadə edilərək hazırlanmış, istifadəçilərin boy
 
 ## 📱 Ekran Görüntüləri (Screenshots)
 
-
-| 🎯 Əsas Səhifə (Home) | 📊 Nəticə Səhifəsi (Result) |
-| :---: | :---: |
-| <img src="https://github.com" width="280" alt="Home Screen"> | <img src="https://github.com" width="280" alt="Result Screen"> |
+<p align="center">
+  <img src="https://github.com" width="280" alt="Home Screen" />
+  <img src="https://github.com" width="280" alt="Result Screen" />
+</p>
 
 ---
+
 
 ## 🛠️ Texnologiyalar (Tech Stack)
 
